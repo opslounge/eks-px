@@ -12,7 +12,7 @@ untar -xvf eksctl_Linux_amd64.tar
 cp eksctl /usr/bin
 ```
 ## Create Cluster Config using cluster config file
-``
+```
 eksctl create cluster -f createcluster.yaml
 ```
 ## Deploy Operator
